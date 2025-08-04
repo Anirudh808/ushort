@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/shorturl/", // This must match your repository name exactly
+  base: "/", // This must match your repository name exactly
   build: {
     outDir: "dist",
   },
