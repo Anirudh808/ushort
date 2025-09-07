@@ -9,7 +9,7 @@ export function Redirect() {
     async function redirectTo() {
       try {
         const response = await axios.get(
-          `https://url-shortner-backend-production-5339.up.railway.app/${id}`
+          `https://url-shortner-backend-xi-one.vercel.app/${id}`
         );
         console.log(response);
         const { url } = response.data; // assuming the long URL is in the 'longUrl' field
