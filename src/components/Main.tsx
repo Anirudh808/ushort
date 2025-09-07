@@ -9,7 +9,7 @@ export function Main() {
 
   async function handleOnclick() {
     const data = await axios.post(
-      "https://url-shortner-backend-production-5339.up.railway.app/shorten",
+      "https://url-shortner-backend-xi-one.vercel.app/shorten",
       {
         url: url,
       }
